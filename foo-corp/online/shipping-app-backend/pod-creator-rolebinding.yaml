@@ -2,6 +2,8 @@ kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: pod-creators
+  annotations:
+    nomos.dev/namespace-selector: sre-supported
 subjects:
 - kind: User
   name: alice@foo-corp.com
