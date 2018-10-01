@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: shipping-prod
   labels:
-    env: prod
+    env: shipping
